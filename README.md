@@ -158,7 +158,11 @@ As versões seguem o padrão Semantic Versioning (SemVer).
 
 ## Deploy
 
-O projeto será publicado na Vercel, integrada ao repositório do GitHub para permitir deploys automatizados.
+O projeto está publicado na Vercel, integrada ao repositório do GitHub para permitir deploys automatizados.
+
+Acesse a aplicação:
+
+https://projeto-ong-iota.vercel.app/
 
 ## Autor
 
