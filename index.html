@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Instituto Esperança - Projetos sociais, voluntariado e ações para transformar vidas."
+    >
+
+    <title>Instituto Esperança</title>
+</head>
+
+<body>
+
+    <a href="#app" class="skip-link">
+        Ir para o conteúdo principal
+    </a>
+
+    <header class="cabecalho">
+        <section class="container cabecalho-conteudo">
+            <a href="/" class="logo" data-link aria-label="Página inicial do Instituto Esperança">
+                Instituto Esperança
+            </a>
+
+            <nav aria-label="Navegação principal">
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Abrir menu"
+                    aria-expanded="false"
+                    aria-controls="menu-principal"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+
+            <nav id="menu-principal" class="navegacao" aria-label="Navegação principal">
+                <ul class="menu">
+                    <li>
+                        <a href="/" data-link>Início</a>
+                    </li>
+
+                    <li>
+                        <a href="/projetos" data-link>Projetos</a>
+                    </li>
+
+                    <li>
+                        <a href="/cadastro" data-link>Cadastro</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main id="app" tabindex="-1">
+        <!-- O conteúdo das páginas será carregado pelo JavaScript -->
+    </main>
+
+    <footer class="rodape">
+        <section class="container">
+            <p>
+                &copy; 2026 Instituto Esperança. Todos os direitos reservados.
+            </p>
+        </section>
+    </footer>
+
+    <section
+        id="toast-container"
+        class="toast-container"
+        aria-live="polite"
+        aria-atomic="true"
+    ></section>
+
+    <section
+        id="modal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-titulo"
+        hidden
+    >
+        <section class="modal-conteudo">
+            <button
+                id="fechar-modal"
+                class="modal-fechar"
+                type="button"
+                aria-label="Fechar janela"
+            >
+                &times;
+            </button>
+
+            <h2 id="modal-titulo">Informação</h2>
+
+            <p id="modal-mensagem"></p>
+        </section>
+    </section>
+
+    <script type="module" src="/src/js/main.js"></script>
+
+</body>
+</html>
