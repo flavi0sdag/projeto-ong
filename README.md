@@ -65,8 +65,8 @@ projeto-ong-final/
 Clone o repositório e acesse a pasta do projeto:
 
 ```bash
-git clone URL-DO-REPOSITORIO
-cd projeto-ong-final
+git clone https://github.com/flavi0sdag/projeto-ong.git
+cd projeto-ong
 ```
 
 Instale as dependências:
